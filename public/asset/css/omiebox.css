@@ -1,0 +1,35 @@
+
+.omie-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.icon-text{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.icon-text p{
+    margin: 0;
+    visibility: hidden;
+    font-size: 14px;
+}
+#box-arrow {
+    margin-left: 5px;
+    
+}
+@media (min-width: 850px){
+    .omie-box{
+        justify-content:center ;
+    }
+    .icon-text{
+        position: absolute ;
+        margin-left: -80% ;
+        cursor: pointer ;
+    }
+    .icon-text p{
+        visibility: visible ;
+    }
+}

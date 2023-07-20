@@ -1,0 +1,211 @@
+.container-pme {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.pme {
+  margin-bottom: 20px;
+  background-color: #000D16;
+  border: 3px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(225deg, #00e2f4, #000D16);
+}
+
+.content {
+  padding-left: 30px;
+}
+
+#logo {
+  width: 13em;
+  margin-bottom: 25px;
+}
+
+.content h1 {
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+#perspective {
+  width: 90%;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#objective {
+  width: 84%;
+  font-size: 16px;
+}
+
+#banner {
+  width: 100%;
+}
+
+.content button {
+  border: none;
+  background: none;
+}
+
+.graphics {
+  width: 95%;
+}
+
+.indice {
+  margin-bottom: 20px;
+
+}
+
+.indi {
+  padding: 15px;
+  background-color: #00475D;
+}
+
+.help-icon {
+  margin-left: 90%;
+  cursor: pointer;
+}
+
+.information {
+  background-color: #00475D;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.information-left {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4px;
+  gap: 5px;
+}
+
+.information-right {
+  text-align: end;
+}
+
+.compare {
+  cursor: pointer;
+}
+
+.compare:hover {
+  opacity: .8;
+}
+
+.compare:active {
+  border: 2px solid #00E2F4;
+  padding: 0 13px;
+  background-color: #001E27;
+  color: #0A909F;
+}
+.commerce {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 15px;
+}
+.mycommerce {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 0;
+}
+.m-indice{
+  width: 75%;
+  border: none;
+  background-color: #007A9C;
+  padding: 10px;
+  border-radius: 30px;
+  color: #ffffff;
+}
+.mounth{
+  display: flex;
+  gap: 70px;
+}
+.highlight{
+  width: 100%;
+  background-color: #00475D;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+.semestre{
+  position: relative;
+  width: 100%;
+}
+.content-sem{
+  color: #001E27;
+  position: absolute;
+  top: 38%;
+  padding: 40px;
+  height: 350px;
+  background-color: #ffffff;
+}
+.down{
+  position: absolute;
+  top: 97%;
+  left: 15%;
+}
+@media (min-width: 850px){
+  .pme{
+    display: flex;
+    flex-direction: row-reverse;
+    width:95%;
+  }
+  .content{
+    padding-top:50px;
+  }
+  #logo{
+    margin-bottom: 50px;
+  }
+  #objective{
+    font-size: 20px;
+    margin: 40px 0;
+  }
+  .indice{
+    display: flex;
+  }
+  .indi{
+    padding: 70px;
+  }
+  #indice-head{
+    position: absolute;
+    top: 98%;
+    font-size: 24px
+  }
+  .indi h2{
+    margin: 25px 0;
+  }
+  .indi p{
+    font-size: 19px;
+  }
+  .data{
+    display:grid;
+    grid-template-columns: 6fr 4fr;
+    gap:20px;
+  }
+  .data-graphics{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    gap: 40px;
+  }
+  .custom-select{
+    margin-bottom: 22px;
+  }
+  .highlight .data-paragraph span{
+    font-size: 25px !important;
+  }
+  .highlight .data-paragraph{
+    font-size: 25px !important;
+  }
+  .semestre{
+    background-color: #fff;
+    height: 1013px;
+  }
+  .down{
+    top: 83%;
+    border: none;
+    left: 21%;
+  }
+}

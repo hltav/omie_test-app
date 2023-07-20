@@ -1,0 +1,55 @@
+.specialist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+    width:100%;
+   
+}
+.head-comment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.custom-specialist-list {
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 13%;
+    margin-bottom: 9%;
+  }
+  
+  .custom-specialist-list li {
+    background-color: #333;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  
+  .custom-specialist-list .active {
+    background-color: #001E27;
+  }
+  .carousel-items{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+  }
+  .arrow{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+}
+.list-carousel{
+
+}
